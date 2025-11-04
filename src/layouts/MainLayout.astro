@@ -4,9 +4,9 @@ import ThemeIsland from '../Island/ThemeIsland.jsx';
 import QuicklyUpButton from '../Island/quicklyup.jsx';
 import { SEO } from 'astro-seo';
                         // 定义并导出标准的网站标题、描述和关键词,记得修改
-export const siteTitle = "专属极简导航站";
-export const siteDescription = "快速访问你的常用工具、书签和在线服务。";
-export const siteKeywords = "导航站, 个人导航, 收藏夹, 自部署书签, 开源导航, 轻量工具, 开发者工具, 自托管, 极简首页, 书签管理, 在线工具, 自定义导航";
+export const siteTitle = "宅人阿特";
+export const siteDescription = "宅人阿特为您服务。";
+export const siteKeywords = "宅人阿特，Bilibili，Poe，Path of Exile, 流放之路";
 export interface Props {
   title?: string;       
   description?: string; 
@@ -18,7 +18,7 @@ const {
   description = siteDescription, 
   ogImage, 
 } = Astro.props;
-const pageCanonicalURL = "https://tksun14.edgeone.app"
+const pageCanonicalURL = "https://poeart.netlib.re"
 let baseSiteURL: string;
 if (Astro.site) {
   const siteStr = Astro.site.toString();
@@ -115,7 +115,7 @@ const canonicalURL = new URL(Astro.url.pathname, baseSiteURL).href;
     </script>
     </script>
     <!-- 图标 -->
-    <link rel="icon" href="./favicon.ico" />
+    <link rel="icon" href="./favicon.webp" />
     {[
       'api.myip.la',
       'myip.ipip.net',

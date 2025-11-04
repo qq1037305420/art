@@ -27,10 +27,6 @@ export const categories = [
     name: '开源平台', icon: '/icons/category/opensource.svg',
   },
   {
-    id: 'Studying',
-    name: '个人其他站点', icon: '/icons/category/studying.svg',
-  },
-  {
     id: 'pages',
     name: '静态部署平台', icon: '/icons/category/pages.svg',
   },
@@ -49,25 +45,6 @@ export const sites = [
       url: 'https://github.com/',
       category: 'opensource',
       icon: '/icons/github.webp',
-      },
-  //个人其他站点      
-      {
-      id: 'zywede',
-      title: 'zywe.de',
-      description: '个人主页与知识集散地。作为技术爱好者，展示自己的全部项目、实践与分享的中心',
-      shortDesc: 'zywe个人官网',
-      url: 'https://zywe.de/',
-      category: 'Studying',
-      icon: '/icons/zywede.png',
-      },
-      {
-      id: 'dh_zywede',
-      title: 'nav.zywe.de',
-      description: '专属导航页,这里汇聚了日常学习、开发与管理服务器所需的所有高效工具与资源链接，快速触达各项在线服务的便捷入口，确保学习与实践的流畅性。',
-      shortDesc: '让每个人都有自己的网站式收藏夹',
-      url: 'https://dh.zywe.de/',
-      category: 'Studying',
-      icon: '/icons/dh-zywede.png',
       },
       // pages      
       {
