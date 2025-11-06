@@ -68,7 +68,7 @@ export const sites = [
     shortDesc: '流放之路中文资料数据库。',
     url: 'https://poedb.tw/cn/',
     category: 'gaming',
-    icon: '/icons/poedb.webp',
+    icon: 'icons/cloudflare-pages.webp',
   },
 ];
 
