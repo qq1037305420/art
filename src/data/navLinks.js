@@ -47,6 +47,15 @@ export const sites = [
     category: 'gaming',
     icon: 'icons/cloudflare-pages.webp',
   },
+    {
+    id: 'poedb',
+    title: '做装模拟器',
+    description: '流放之路(PoE)做装模拟器。',
+    shortDesc: '做装模拟器',
+    url: 'https://poedb.top/sim.aspx',
+    category: 'gaming',
+    icon: 'icons/cloudflare-pages.webp',
+  },
 ];
 
 // 其余函数保持不变...
