@@ -13,7 +13,7 @@ export const categories = [
   },
   {
     id: 'gaming',
-    name: '游戏资料', icon: '/icons/category/gaming.svg',
+    name: '游戏资料', icon: '/icons/category/pages.svg',
   },
 ];
 
