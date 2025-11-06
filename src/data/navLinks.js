@@ -38,6 +38,15 @@ export const sites = [
     category: 'gaming',
     icon: 'icons/cloudflare-pages.webp',
   },
+    {
+    id: 'poedb',
+    title: '国服物价榜',
+    description: '流放之路(PoE)物价查询站。',
+    shortDesc: '物价。',
+    url: 'https://price.filtereditor.cn/',
+    category: 'gaming',
+    icon: 'icons/cloudflare-pages.webp',
+  },
 ];
 
 // 其余函数保持不变...
