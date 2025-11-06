@@ -8,10 +8,6 @@ export const categories = [
     name: '开源平台', icon: '/icons/category/opensource.svg',
   },
   {
-    id: 'pages',
-    name: '静态部署平台', icon: '/icons/category/pages.svg',
-  },
-  {
     id: 'gaming',
     name: '游戏资料', icon: '/icons/category/pages.svg',
   },
@@ -31,34 +27,6 @@ export const sites = [
     url: 'https://github.com/',
     category: 'opensource',
     icon: '/icons/github.webp',
-  },
-  // pages      
-  {
-    id: 'github-pages',
-    title: 'GitHub Pages',
-    description: 'GitHub 提供的静态网站托管服务，支持自定义域名与 HTTPS，可直接从仓库部署，适合个人主页、项目文档与开源展示，集成 Git 工作流，极简且可靠。',
-    shortDesc: 'Git 驱动的静态网站托管。',
-    url: 'https://pages.github.com/',
-    category: 'pages',
-    icon: '/icons/github-pages.webp',
-  },
-  {
-    id: 'cloudflare-pages',
-    title: 'Cloudflare Pages',
-    description: '由全球领先的 CDN 提供商 Cloudflare 推出的前端部署平台，支持 Jamstack 架构，内置构建优化、边缘函数与自动缓存更新，适合高性能 Web 应用与博客。',
-    shortDesc: 'CDN 优化的前端部署平台。',
-    url: 'https://pages.cloudflare.com/',
-    category: 'pages',
-    icon: '/icons/cloudflare-pages.webp',
-  },
-  {
-    id: 'vercel',
-    title: 'Vercel',
-    description: '专为前端开发打造的现代部署平台，由 Next.js 背后团队开发，支持 Serverless 架构、实时预览与多分支部署，适合敏捷开发、商业级应用与个性化项目。',
-    shortDesc: 'Next.js 团队出品的部署平台。',
-    url: 'https://vercel.com/',
-    category: 'pages',
-    icon: '/icons/vercel.webp',
   },
   // 游戏资料
   {
